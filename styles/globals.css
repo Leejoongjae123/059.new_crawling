@@ -1,0 +1,40 @@
+li{
+  list-style: none;
+}
+
+*{
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.title {display:-webkit-box; word-wrap:break-word; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis}
+
+a:visited {
+  color : red;
+}
+.span{
+  font-size: 1rem;
+}
+.contents{
+  width:70%;
+}
+.company{
+  display:-webkit-box; word-wrap:break-word; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis;
+  width:15%;
+}
+.time{
+  display:-webkit-box; word-wrap:break-word; -webkit-line-clamp:1; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis;
+  width:15%;
+}
